@@ -12,6 +12,7 @@ servidor será visto como um banco de dados contendo informações sobre pessoas
 cadastros e consultas ao banco de dados seguindo a sintaxe de comandos:
 
 • Cadastro: “INSERT:$NOME:$SEXO:$IDADE”
+
 • Consulta: “SELECT*”
 
 Os comandos são digitados no terminal como texto. Ao digitar SELECT*, todos os cadastros do banco de
@@ -29,8 +30,11 @@ Você precisará ter o Python3 instalado em sua máquina.
 Baixe o projeto na sua máquina, navegue até a pasta raíz do projeto.
 
 Levante o servidor, executando o comando no terminal
+
 > python3 echo_server.py
+
 Em um outro terminal, levante a aplicação cliente, executando o comandondo
+
 > python3 echo_client.py
 
 Siga as intruções exibidas no terminal cliente.
